@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+:root {
+  --rf-brand: #fb8d19;
+
+  --rf-brand-rgb: 248, 54, 145;
+
+  --rf-dark: #212237;
+
+  --rf-body: #989898;
+
+  --f-main: "Raleway", sans-serif;
+
+  --transition: all .6s cubic-bezier(.165, .84, . 44, 1);
+
+  --shadow: 0px, 15px, 30px, rgb(0,0,0,0.1); 
+}
+
+body {
+  font-family: var(--f-main);
+  color: var(--rf-brand);
+  line-height: 1.8;
+}
+
+h1, .h1 h2, .h2 h3, .h3 h4, .h4 h5, .h5 h6, .h6 {
+  font-weight: 700;
+  color: var(--rf-dark);
+  font-family: var(--f-main); }
+  
+  body {
+  background-color: var(--rf-light);
+}
